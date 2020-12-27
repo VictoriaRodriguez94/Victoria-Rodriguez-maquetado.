@@ -1,6 +1,7 @@
 img {
-    padding: 30px;
+    padding: 0px;
     width: 100%;
+    margin-bottom: 70px;
 }
 
 
@@ -24,8 +25,29 @@ h1 {
 
 main img {
     padding: 0;
-    width: 100%;
+    width: 50%;
 }
+
+
+div.col-3 img {width: 100%;}
+
+div.card {margin-left: 15px;}
+
+
+div.title {text-align: center;
+font-size: 12px;}
+
+
+p {text-align: center;}
+
+.btn {
+    opacity: 0;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
 
 
 .slider .card {
@@ -37,33 +59,9 @@ main img {
 }
 
 
-
-
 .slider .card:hover {
     border: rgb(194, 194, 194) 2px solid;
     opacity: 1;
-}
-
-.slider .card .img {
-    height: 200px;
-    width: 80%;
-}
-
-.slider .card .content {
-    padding: 10px 20px;
-}
-
-.card .content .title {
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.card {
-    text-align: center;
-}
-
-.card p {
-    text-align: center;
 }
 
 .card .content .btn button {
@@ -71,27 +69,20 @@ main img {
     color: #fff;
     border: none;
     outline: none;
-    font-size: 17px;
+    font-size: 13px;
     padding: 5px 8px;
     border-radius: 3px;
     cursor: pointer;
     transition: 0.2s;
 }
 
-.btn {
-    opacity: 0;
-}
-
-.btn:hover {
-    opacity: 1;
-}
-
-p {
-    border: grey 1px solid;
-    border-radius: 3px;
-    width: 70px;
-    margin: auto;
-    margin-bottom: 5px;
-}
+.btn p {border: rgb(207, 207, 207) solid 1px;
+width: 100px;
+margin: auto;
+border-radius: 6px;
+margin-bottom: 5px;
 
 
+color: grey}
+
+span {padding-left: 20px;}
